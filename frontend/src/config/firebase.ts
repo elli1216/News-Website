@@ -12,7 +12,7 @@ import {
 // Auth state persistence is handled in the useAuth hook
 
 export const firebaseConfig: FirebaseOptions = {
-  apiKey: "AIzaSyCt8aCO987NZXBLRPcCqgn4julf3M0IdaI",
+  apiKey: import.meta.env.FIREBASE_API_KEY,
   authDomain: "news-a923d.firebaseapp.com",
   projectId: "news-a923d",
   storageBucket: "news-a923d.appspot.com",
