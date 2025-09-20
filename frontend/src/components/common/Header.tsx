@@ -38,7 +38,7 @@ const Header = () => {
         transition={Slide}
       />
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">News Report</a>
+        <a className="btn btn-ghost text-xl">Scroll Report</a>
       </div>
       <ThemeController />
       <div className="flex gap-2">
